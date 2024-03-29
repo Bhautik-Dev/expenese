@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "235355912007",
+    "project_id": "bhautikproject-9678d",
+    "storage_bucket": "bhautikproject-9678d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235355912007:android:4fed691553f72ead767e62",
+        "android_client_info": {
+          "package_name": "com.bhautik.expenese"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiqnqnu42a-o5oZW3vJT6yOSd3WmbLsyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235355912007:android:43d55f8d64d07546767e62",
+        "android_client_info": {
+          "package_name": "com.bhautik.firebase.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiqnqnu42a-o5oZW3vJT6yOSd3WmbLsyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
