@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:expenese/controller/product_controller.dart';
-import 'package:expenese/product/add_new_product.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../controller/product_controller.dart';
 
 class Pbrands extends StatefulWidget {
   const Pbrands({super.key});

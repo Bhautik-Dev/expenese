@@ -1,6 +1,6 @@
-import 'package:expenese/controller/auth_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import '../controller/auth_controller.dart';
 
 class OtpPage extends StatefulWidget {
   const OtpPage({super.key,});

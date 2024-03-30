@@ -1,8 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:expenese/add_expense.dart';
-import 'package:expenese/controller/category_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import 'add_expense.dart';
+import 'controller/category_controller.dart';
 
 class Category extends StatefulWidget {
   const Category({super.key});

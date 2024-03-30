@@ -1,15 +1,9 @@
-import 'package:expenese/expense.dart';
-import 'package:expenese/home.dart';
-import 'package:expenese/login/checkBox.dart';
-import 'package:expenese/login/messages/home.dart';
-import 'package:expenese/login/messages/login.dart';
-import 'package:expenese/splash.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-
 import 'controller/binding_controller.dart';
+import 'home.dart';
 
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();

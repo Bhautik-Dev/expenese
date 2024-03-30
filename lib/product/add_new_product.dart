@@ -1,17 +1,16 @@
 import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:expenese/controller/product_controller.dart';
-import 'package:expenese/product/p_brands.dart';
-import 'package:expenese/product/p_category.dart';
-import 'package:expenese/product/p_home.dart';
-import 'package:expenese/product/p_units.dart';
-import 'package:expenese/widget/qr_code_page.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 
+import '../controller/product_controller.dart';
 import '../vars.dart';
+import '../widget/qr_code_page.dart';
+import 'p_brands.dart';
+import 'p_category.dart';
+import 'p_units.dart';
 
 class AddProduct extends StatefulWidget {
   const AddProduct({super.key});

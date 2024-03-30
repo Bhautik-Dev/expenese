@@ -1,7 +1,8 @@
-import 'package:expenese/controller/parties_controller.dart';
-import 'package:expenese/parties/print.dart';
+import 'package:expense/parties/print.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../controller/parties_controller.dart';
 
 class PartiesDetails extends StatefulWidget {
   final dynamic model;

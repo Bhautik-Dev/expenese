@@ -1,8 +1,7 @@
-import 'package:expenese/home.dart';
-import 'package:expenese/login/otp.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import '../home.dart';
 
 class AuthController extends GetxController{
 

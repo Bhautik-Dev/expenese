@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:expenese/controller/parties_controller.dart';
-import 'package:expenese/parties/parties_home.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../controller/parties_controller.dart';
 
 class PartiesAdd extends StatefulWidget {
   const PartiesAdd({super.key});

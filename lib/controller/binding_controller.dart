@@ -1,12 +1,11 @@
-import 'package:expenese/controller/auth_controller.dart';
-import 'package:expenese/controller/category_controller.dart';
-import 'package:expenese/controller/expense_controller.dart';
-import 'package:expenese/controller/parties_controller.dart';
-import 'package:expenese/controller/product_controller.dart';
-import 'package:expenese/controller/purchese_controller.dart';
-import 'package:expenese/controller/sale_controller.dart';
-import 'package:expenese/controller/user_controller.dart';
+import 'package:expense/controller/parties_controller.dart';
+import 'package:expense/controller/product_controller.dart';
+import 'package:expense/controller/purchese_controller.dart';
+import 'package:expense/controller/sale_controller.dart';
 import 'package:get/get.dart';
+import 'auth_controller.dart';
+import 'category_controller.dart';
+import 'expense_controller.dart';
 
 class BindingController implements Bindings{
 
@@ -19,7 +18,6 @@ class BindingController implements Bindings{
     Get.lazyPut<CategoryController>(() => CategoryController(),fenix: true);
     Get.lazyPut<PurchaseController>(() => PurchaseController(),fenix: true);
     Get.lazyPut<AuthController>(() => AuthController(),fenix: true);
-    Get.lazyPut<UserController>(() => UserController(),fenix: true);
   }
 
 }

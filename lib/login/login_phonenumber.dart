@@ -1,7 +1,7 @@
-import 'package:expenese/controller/auth_controller.dart';
-import 'package:expenese/login/otp.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import '../controller/auth_controller.dart';
+import 'otp.dart';
 
 class LoginPhoneNumber extends StatefulWidget {
   const LoginPhoneNumber({super.key});

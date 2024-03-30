@@ -1,12 +1,10 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:expenese/controller/product_controller.dart';
-import 'package:expenese/controller/sale_controller.dart';
-import 'package:expenese/home.dart';
-import 'package:expenese/product/add_new_product.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../controller/product_controller.dart';
+import '../controller/sale_controller.dart';
 import '../vars.dart';
+import 'add_new_product.dart';
 
 class ProductHome extends StatefulWidget {
   const ProductHome({super.key});

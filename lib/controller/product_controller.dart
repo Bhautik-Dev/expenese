@@ -1,10 +1,7 @@
-
-
-
 import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:expenese/controller/sale_controller.dart';
+import 'package:expense/controller/sale_controller.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';

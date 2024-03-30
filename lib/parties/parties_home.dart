@@ -1,10 +1,10 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:expenese/controller/parties_controller.dart';
-import 'package:expenese/home.dart';
-import 'package:expenese/parties/parties_add.dart';
-import 'package:expenese/parties/parties_details.dart';
+import 'package:expense/parties/parties_add.dart';
+import 'package:expense/parties/parties_details.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../controller/parties_controller.dart';
+import '../home.dart';
 
 class PartiesHome extends StatefulWidget {
   const PartiesHome({super.key});
